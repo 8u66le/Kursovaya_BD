@@ -2,14 +2,14 @@ import psycopg2
 import telebot
 
 # Параметры подключения к базе данных PostgreSQL
-db_host = '10.40.240.85'
-db_port = 5432
-db_name = 'RI_211050_Titenko_VK'
+db_host = ''
+db_port =
+db_name = ''
 db_user = 'student'
-db_password = 'student-rtf-123'
+db_password = ''
 
 # Токен доступа к телеграм-боту
-bot_token = '5820269802:AAH3u-K_VwVaYTHDfuEiFCZAZhEEqEAemGo'
+bot_token = ''
 
 # Создание подключения к базе данных
 conn = psycopg2.connect(
